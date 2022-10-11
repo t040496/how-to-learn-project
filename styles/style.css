@@ -202,10 +202,7 @@ h6 {
   width: 877px;
   top: -292px;
 }
-.table__cell_theme_dark {
-  width: 200px;
-  
-}
+
 .table_theme_dark {
   display: flex;
   flex-wrap: wrap;
@@ -245,10 +242,6 @@ h6 {
   overflow: hidden;
   padding-bottom: 90px;
 }
-p {
-  z-index: 2;
-  position: relative;
-}
 .logo_place_footer {
   background-image: url(/images/logo_place_footer.svg);
   width: 228px;
@@ -276,9 +269,6 @@ li {
   height: 16px;
   margin-right: 10px;
 }
-.footer {
-  padding-top: 60px;
-}
 .footer__columns {
   width: 90%;
   color:#fff;
@@ -296,7 +286,6 @@ li {
   justify-content: space-between;  
 }
 .footer__column-links {
-  margin-top: 20;
   margin-bottom: 16px;
   margin-top: 20px;
   line-height: 30px;
