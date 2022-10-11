@@ -264,6 +264,7 @@ p {
 .footer {
   background-color: #1f1f1f;
   padding-top: 60px;
+  padding-bottom: 40px;
 }
 li { 
   display: flex; 
@@ -279,7 +280,6 @@ li {
   margin-right: 10px;
 }
 .footer {
-  min-height: 350px;
   padding-top: 60px;
 }
 .footer__columns {
@@ -288,8 +288,7 @@ li {
 }
 .footer__author {
   margin-top: 18px;
-
-  line-height: 25;
+  line-height: 25px;
   font-size: 18px;
   font-weight: normal;
 }
@@ -297,6 +296,7 @@ li {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;  
 }
 .footer__column-links {
   margin-top: 20;
