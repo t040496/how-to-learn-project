@@ -40,13 +40,6 @@ p {
   background-color: #2f80ed;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 .logo_place_header {
   background-image: url(/images/logo_place_header.svg);
   width: 228px;
@@ -205,6 +198,8 @@ h6 {
 .table__cell_theme_dark { 
  width: 200px;
  margin-top: 80px !important;
+ margin-right: 0;
+ color: white;
 }
 .table_theme_dark {
   display: flex;
