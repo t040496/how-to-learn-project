@@ -30,13 +30,16 @@ p {
   display: flex;
   position: relative;
   background-color:  #f2f2f2;
-  z-index: -1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  background-color: #2f80ed;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -60,15 +63,7 @@ p {
   position: absolute;
   right: 0;
   bottom: 0;
-}
-.header__square-pic {
-  width: 568px;
-  height: 568px;
-  position: absolute;
-  right: 0;
-  top: 64px;
-  background-color: #2f80ed;
-  z-index: -1;
+  z-index: 1;
 }
 .header__subtitle {
   width: 388px;
@@ -150,7 +145,7 @@ h6 {
 }
 .table__cell {
   width: 250px;
-  padding-top: 60px;
+  margin-top: 60px;
   z-index: 2;
 }
 .section-subtitle {
@@ -175,7 +170,6 @@ h6 {
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-color:  #f2f2f2;
-  z-index: -1;
   height: 890px;
   position: relative;
 }
@@ -252,6 +246,7 @@ h6 {
   position: relative;
   z-index: 2;
   overflow: hidden;
+  padding-bottom: 90px;
 }
 p {
   z-index: 2;
@@ -285,6 +280,7 @@ li {
 }
 .footer {
   min-height: 350px;
+  padding-top: 60px;
 }
 .footer__columns {
   width: 90%;
