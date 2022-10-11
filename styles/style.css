@@ -106,8 +106,8 @@ h6 {
   color:#2f80ed;
 }
 .two-columns__main-text {
-  width: 80%; 
-  min-width: 784px
+  width: 80%;
+  min-width: 784px;
 }
 .two-columns__paragraph:not(:last-child) {
   margin-bottom: 30px;
@@ -240,7 +240,6 @@ h6 {
 .kaufman {
   background-color: #1f1f1f;
   padding-top: 90px;
-  padding-bottom: 0px;
   position: relative;
   z-index: 2;
   overflow: hidden;
@@ -300,7 +299,6 @@ li {
   margin-top: 20;
   margin-bottom: 16px;
   margin-top: 20px;
-  margin-bottom: 16px;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
