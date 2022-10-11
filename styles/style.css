@@ -202,7 +202,10 @@ h6 {
   width: 877px;
   top: -292px;
 }
-
+.table__cell_theme_dark { 
+ width: 200px;
+ margin-top: 80px !important;
+}
 .table_theme_dark {
   display: flex;
   flex-wrap: wrap;
@@ -263,15 +266,13 @@ li {
   display: flex;
   justify-content: space-around;
   margin: 0 auto 0 auto;
+  width: 90%;
+  color:#fff;
 }
 .footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
-}
-.footer__columns {
-  width: 90%;
-  color:#fff;
 }
 .footer__author {
   margin-top: 18px;
